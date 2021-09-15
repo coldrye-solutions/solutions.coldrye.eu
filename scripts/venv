@@ -1,0 +1,14 @@
+#!/bin/bash
+
+virtualenv .
+
+echo "Virtualenv created."
+echo
+echo "Run"
+echo "source ./bin/activate"
+echo "to activate the virtual environment."
+echo
+echo "Then run"
+echo "./scripts/requirements.local"
+echo "to install missing requirements."
+
